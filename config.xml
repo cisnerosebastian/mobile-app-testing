@@ -13,5 +13,7 @@
     <author href="http://www.temsistemas.com/" email="info@temsistemas.com">
         Tem Sistemas
     </author>
+    
+    <preference name="phonegap-version"           value="3.3.0" />
 
 </widget>
