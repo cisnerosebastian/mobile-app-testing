@@ -16,6 +16,20 @@
     
     <preference name="phonegap-version"           value="2.9.0" />
     
-    <icon src="icon.png" />
+    <preference name="show-splash-screen-spinner" value="true" /> 
+    
+    <icon src="images/config/icon.png" />
+    
+    <gap:splash src="images/config/portrait.jpg"		gap:platform="android" gap:qualifier="port-ldpi" />
+    <gap:splash src="images/config/portrait.jpg"		gap:platform="android" gap:qualifier="port-mdpi" />
+    <gap:splash src="images/config/portrait.jpg"		gap:platform="android" gap:qualifier="port-hdpi" />
+    <gap:splash src="images/config/portrait.jpg"		gap:platform="android" gap:qualifier="port-xhdpi" />
+    <gap:splash src="images/config/portrait.jpg"		gap:platform="blackberry" />
+    <gap:splash src="images/config/portrait.jpg"		gap:platform="ios"     width="320" height="480" />
+    <gap:splash src="images/config/portrait.jpg"		gap:platform="ios"     width="640" height="960" />
+    <gap:splash src="images/config/portrait.jpg"		gap:platform="ios"     width="640" height="1136" />
+    <gap:splash src="images/config/portrait.jpg"		gap:platform="ios"     width="768" height="1024" />
+    <gap:splash src="images/config/landscape.jpg"		gap:platform="ios"     width="1024" height="768" />
+    <gap:splash src="images/config/landscape.jpg"		gap:platform="winphone" />
 
 </widget>
